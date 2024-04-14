@@ -4,7 +4,17 @@
 
 In This project we performed Exploratory Data Ananlysis on festival sales data of an e-commerce company over the past year. By analyzing various aspects of the sales data, we try to suggest store to improve customer experience by Analyzing the statistics of sales and help to increase revenue.
 
-### Data Sources
+### Table Of Contents
+  - [Data Source](#data-source)
+  - [Tools](#tools)
+  - [Operations Performed](#operations-performed)
+  - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis)
+  - [Data Analysis](#data-analysis)
+  - [Insights](#insights)
+  - [Recommendations](#recommendations)
+
+    
+### Data Source
 
 The primary dataset used for this analysis is "Diwali sales analysis.csv" file obtained from youtube source, containing information about each category and various stats of a company.
 
@@ -13,12 +23,12 @@ The primary dataset used for this analysis is "Diwali sales analysis.csv" file o
 - Python - jupyter notebook.
 - python libraries - numpy, pandas, matplotlib, seaborn.
 
-### Operations performed
+### Operations Performed
 
 - Data cleansing - data inspection, removal of empty/blank cells,duplicates and null values.
 - Exploratory data analysis - analyzed data based on different category and cases and products.
 
-### Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis
 
 EDA involved exploring the sales data to answer key questions, such as:
 1. which state made top sales?
@@ -47,7 +57,7 @@ for bars in ax.containers:
 ```
 
 
-### Insights/Findings
+### Insights
 
 1. Most of the orders & total sales/amount are from Uttar Pradesh, Maharashtra and Karnataka respectively.
 2. Maximum of the buyers are of age group between 26-35 yrs female.
