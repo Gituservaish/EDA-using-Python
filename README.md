@@ -2,7 +2,7 @@
 
 ### Project Overview
 
-In This project we performed Exploratory Data Ananlysis on festival sales data of an e-commerce company over the past year. By analyzing various aspects of the sales data, we try to suggest store to improve customer experience by Analyzing the statistics of sales and help to increase revenue.
+In This project we performed Exploratory Data Ananlysis on festival sales data of an e-commerce company over the past year. By analyzing various aspects of the sales data, we try to suggest store by providing steps to improve customer experience by Analyzing the statistics of sales and to help increase revenue.
 
 ### Table Of Contents
   - [Data Source](#data-source)
@@ -55,6 +55,8 @@ ax = sns.countplot(x = 'Gender',data = df)
 for bars in ax.containers:
     ax.bar_label(bars)
 ```
+![EDA](https://github.com/Gituservaish/EDA-using-Python/assets/160588103/8bf19795-da8d-4ba1-b7fd-bd08b1c5b33f)
+
 
 
 ### Insights
